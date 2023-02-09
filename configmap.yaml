@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: edge-identities
+  namespace: default
+data:
+  values.yaml: |
+    e4kmqtt:
+      authenticationMethods:
+        - method: allowall
+    e4kspiffe:
+      server:
+        jwt:
+          ttl: 30
