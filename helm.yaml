@@ -28,3 +28,5 @@ spec:
 valuesFrom:
 - kind: ConfigMap
   name: edge-identities
+- kind: ConfigMap
+  name: disable-diagnostics

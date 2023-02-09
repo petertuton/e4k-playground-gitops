@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: disable-diagnostics
+  namespace: default
+data:
+  values.yaml: |
+    diagnostics:
+      enabled: false
