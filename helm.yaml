@@ -27,4 +27,4 @@ spec:
   interval: 1m0s
   valuesFrom: 
     - kind: ConfigMap
-      name: set-backend-chain-count
+      name: disable-diagnostics
