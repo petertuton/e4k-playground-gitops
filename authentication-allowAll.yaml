@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: edge-identities
+  name: edge-identities-allow-all
   namespace: default
 data:
   values.yaml: |
