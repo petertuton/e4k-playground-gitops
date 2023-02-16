@@ -28,6 +28,4 @@ spec:
   valuesFrom: 
     - kind: ConfigMap
       name: disable-diagnostics
-    - kind: ConfigMap
-      name: set-backend-chain-count
 
