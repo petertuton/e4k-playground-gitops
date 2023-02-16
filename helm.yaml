@@ -30,5 +30,4 @@ spec:
       name: disable-diagnostics
     - kind: ConfigMap
       name: set-backend-chain-count
-    - kind: ConfigMap
-      name: set-backend-replica-count-default
+
