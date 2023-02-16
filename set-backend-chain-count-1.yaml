@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: set-backend-chain-count-1
+  namespace: flux-system
+data:
+  values.yaml: |
+    e4kdmqtt:
+      broker:
+        backend: 
+          chainCount: 1
