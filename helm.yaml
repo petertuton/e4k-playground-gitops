@@ -29,4 +29,4 @@ spec:
     - kind: ConfigMap
       name: disable-diagnostics
     - kind: ConfigMap
-      name: set-backend-chain-count-1
+      name: set-frontend-replicas-count-1
